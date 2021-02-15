@@ -12,11 +12,14 @@ return (
 
                 {props.categories.map((category,i) => 
 
-                    <div className="col-lg-4 mb-4">
-                        <div className="card bg-info text-white shadow">
+                    
+                        <div className="card bg-info text-white shadow card-category ">
                             <div className="card-body" id={category.id + i}>
-                                {category.name + " (" + category.count + ")"} 
-                            </div>
+                                {/* {category.name + " (" + category.count + ")"}  */}
+                                <div className="category-numbers">{category.count} </div>
+                                <div className= "category-name">{category.name} </div>
+
+                            
                         </div>
                     </div>
 

@@ -31,6 +31,7 @@ return (
                         <p className="lastproduct-name">{lastProduct.name}</p>
                         <p className="lastproduct-description">{lastProduct.description}</p>
                         <p className="lastproduct-price">${lastProduct.price}</p>
+                        <p>Fecha de creacion: {lastProduct.created_at}</p>
                     </div>
                 </div>
 
