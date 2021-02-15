@@ -8,7 +8,7 @@ function LastProduct() {
 
     useEffect(function () {
 
-        fetch("http://localhost:3001/api/productos/1")
+        fetch("http://localhost:3001/api/productos/ultimo")
         .then(response => response.json())
         .then(json => setLastProduct(json))
 		.catch(error => console.log(error))
