@@ -53,6 +53,49 @@ html {
     -webkit-tap-highlight-color: transparent
 }
 
+/* header */
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    min-height: 50px;
+    box-shadow: 0 0.5px 1px gainsboro;
+}
+
+.navigation {
+    background-color: white;
+    font-family: Montserrat-Regular;
+    width: 100%;
+}
+
+.container-header {
+    display: flex;
+    height: 60px;
+    padding: 0 15px;
+    font-size: 0.95em;
+}
+
+.container-header-izq {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    max-width: 160px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.logo-navigation {
+    max-width: 100%;
+    max-height: 33.61px;
+}
+
+
+
+
 article,
 aside,
 figcaption,

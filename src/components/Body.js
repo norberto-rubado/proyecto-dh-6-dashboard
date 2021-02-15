@@ -5,6 +5,9 @@ import Summary from './Summary'
 import PageHeader from './PageHeader'
 import LastProductCategories from './LastProductCategories'
 import ProductTable from './ProductTable'
+import logo from '../logo-reegalo-blue.png'
+
+
 
 import "../App.css"
 
@@ -54,7 +57,18 @@ return (
 	{/* 			<!-- Main Content --> */}
 					<div id="content">
 
-	
+	<header class="navigation">
+    <div class="container-header">
+        <div class="container-header-izq">
+            <a href="/" class="logo">
+                <div>
+					<img src={logo} alt="Reegalo" class="logo-navigation"/>
+                </div>
+            </a>
+		</div>
+	</div>    
+	</header> 
+
 
 	{/* 				<!-- Begin Page Content --> */}
 						<div className="container-fluid">
