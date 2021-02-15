@@ -68,25 +68,29 @@ header {
     background-color: white;
     font-family: Montserrat-Regular;
     width: 100%;
+    margin-bottom: 40px;
 }
 
-.container-header {
-    display: flex;
-    height: 60px;
-    padding: 0 15px;
-    font-size: 0.95em;
-}
-
-.container-header-izq {
-    width: 50%;
-    display: flex;
-    align-items: center;
-}
 
 .logo {
     max-width: 160px;
     margin-right: 20px;
     margin-left: 10px;
+    
+}
+
+.image-container{
+    text-align: center;
+}
+
+
+.title-dash{
+    text-align: center;
+    font-size: 0.5rem ;
+    color: gray;
+    font-family: Nunito, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    
+    
 }
 
 .logo-navigation {

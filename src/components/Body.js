@@ -9,6 +9,8 @@ import logo from '../logo-reegalo-blue.png'
 
 
 
+
+
 import "../App.css"
 
 function Body() {
@@ -57,17 +59,7 @@ return (
 	{/* 			<!-- Main Content --> */}
 					<div id="content">
 
-	<header class="navigation">
-    <div class="container-header">
-        <div class="container-header-izq">
-            <a href="/" class="logo">
-                <div>
-					<img src={logo} alt="Reegalo" class="logo-navigation"/>
-                </div>
-            </a>
-		</div>
-	</div>    
-	</header> 
+	
 
 
 	{/* 				<!-- Begin Page Content --> */}
