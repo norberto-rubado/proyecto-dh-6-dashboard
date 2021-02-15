@@ -1,16 +1,46 @@
-import React from "react"
+
+import {React, useState, useEffect} from "react"
 import PropTypes from "prop-types"
 
 import "../App.css"
 
 function Summary(props) {
+
+    let [productsCount, setProductsCount] = useState(0)
+	let [usersCount, setUsersCount] = useState(0)
+	let [categoriesCount, setCategoriesCount] = useState(0)
+
+    useEffect(function () {
+
+        fetch("http://localhost:3001/api/productos")
+        .then(response => response.json())
+        .then(json => setProductsCount(json.count))
+		.catch(error => console.log(error))
+
+		fetch("http://localhost:3001/api/usuarios")
+        .then(response => response.json())
+        .then(json => setUsersCount(json.meta.count))
+		.catch(error => console.log(error))
+
+		fetch("http://localhost:3001/api/categorias")
+        .then(response => response.json())
+        .then(json => setCategoriesCount(json.meta.count))
+		.catch(error => console.log(error))
+
+    } , [])
+    let info_summary = [
+		{titulo:"Cantidad de Productos",cifra:productsCount,color:"card border-left-primary shadow h-100 py-2",icono:"fas fa-gifts fa-2x text-gray-300"},
+		{titulo:"Cantidad de Usuarios",cifra:usersCount,color:"card border-left-success shadow h-100 py-2",icono:"fas fa-users fa-2x text-gray-300"},
+		{titulo:"Cantidad de Categorias",cifra:categoriesCount,color:"card border-left-warning shadow h-100 py-2",icono:"fas fa-clipboard-list fa-2x text-gray-300"}
+	]
+
 return (
 
     <div className="summary_1">
 
         <div className="row">
 
-            {props.info_summary.map(info => 
+            {info_summary.map(info => 
 
                 <div className="col-md-4 mb-4">
 {/*                     <div className="card border-left-primary shadow h-100 py-2"> */}
