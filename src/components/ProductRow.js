@@ -12,32 +12,21 @@ return (
             <tr>
                 <th>Nombre</th>
                 <th>Descripcion</th>
-                <th>Precio</th>
-                <th>Descuento</th>
-                <th>Categoria</th>
-                <th>Stock</th>
+                <th className="table-center">Precio</th>
+                <th className="table-center">Categoria</th>
+                <th className="table-center">Stock</th>
             </tr>
         </thead>
-        <tfoot>
-            <tr>
-                <th>Nombre</th>
-                <th>Descripcion</th>
-                <th>Precio</th>
-                <th>Descuento</th>
-                <th>Categoria</th>
-                <th>Stock</th>
-            </tr>
-        </tfoot>
+       
         <tbody>
             {props.products_list.map(function(product,i) { 
                 return (
                     <tr>
-                        <td>{product.name}</td>
+                        <td >{product.name}</td>
                         <td>{product.description}</td>
-                        <td>{product.price}</td>
-                        <td>{product.discount + "%"}</td>
-                        <td>{product.category}</td>
-                        <td>{product.stock}</td>
+                        <td className="table-center">${product.price}</td>
+                        <td className="table-center">{product.category}</td>
+                        <td className="table-center">{product.stock}</td>
                     </tr>
                 )
             })}

@@ -145,6 +145,11 @@ header {
 
 }
 
+/* Table */
+.table-center{
+    text-align: center;
+}
+
 article,
 aside,
 figcaption,

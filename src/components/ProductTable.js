@@ -19,7 +19,7 @@ return (
 
     <div className="product_table_1">
 
-        <h1 className="h3 mb-2 text-gray-800">Productos Habilitados</h1>
+        <h1 className="h3 mb-4 text-gray-800">Productos Habilitados</h1>
 
             <div className="card shadow mb-4">
                 <div className="card-body">
