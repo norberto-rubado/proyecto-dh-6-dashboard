@@ -122,7 +122,8 @@ header {
 
 .container-card{
     padding-right: .75rem;
-    padding-left: .75rem
+    padding-left: .75rem;
+    width: 100%;
 }
 
 .card-props {

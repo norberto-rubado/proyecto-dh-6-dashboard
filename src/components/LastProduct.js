@@ -30,7 +30,7 @@ return (
                     <div className="lastproduct-detail">
                         <p className="lastproduct-name">{lastProduct.name}</p>
                         <p className="lastproduct-description">{lastProduct.description}</p>
-                        <p className="lastproduct-price">{lastProduct.price}</p>
+                        <p className="lastproduct-price">${lastProduct.price}</p>
                     </div>
                 </div>
 
