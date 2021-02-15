@@ -11,6 +11,7 @@
  */
 :root {
     --blue: #4e73df;
+    --azulreegalo: #18A0FB;
     --indigo: #6610f2;
     --purple: #6f42c1;
     --pink: #e83e8c;
@@ -102,6 +103,20 @@ header {
     margin-bottom: 1.5rem !important;
     margin-top: 1.5rem !important
 }
+
+/* summary */
+
+.cantidades {
+    font-size: 2rem
+}
+
+.col-auto i {
+    font-size: 4rem;
+    padding-right: 20px;
+}
+
+
+
 
 article,
 aside,
@@ -774,8 +789,11 @@ pre code {
 .col-auto {
     flex: 0 0 auto;
     width: auto;
-    max-width: 100%
+    max-width: 100%;
+
 }
+
+
 
 .col-1 {
     flex: 0 0 8.33333%;
@@ -10492,7 +10510,7 @@ button.bg-dark:hover {
 }
 
 .text-primary {
-    color: #4e73df !important
+    color: #18A0FB !important
 }
 
 a.text-primary:focus,
@@ -10970,45 +10988,8 @@ a:focus {
     justify-content: center
 }
 
-.border-left-primary {
-    border-left: .25rem solid #4e73df !important
-}
 
-.border-bottom-primary {
-    border-bottom: .25rem solid #4e73df !important
-}
 
-.border-left-secondary {
-    border-left: .25rem solid #858796 !important
-}
-
-.border-bottom-secondary {
-    border-bottom: .25rem solid #858796 !important
-}
-
-.border-left-success {
-    border-left: .25rem solid #1cc88a !important
-}
-
-.border-bottom-success {
-    border-bottom: .25rem solid #1cc88a !important
-}
-
-.border-left-info {
-    border-left: .25rem solid #36b9cc !important
-}
-
-.border-bottom-info {
-    border-bottom: .25rem solid #36b9cc !important
-}
-
-.border-left-warning {
-    border-left: .25rem solid #f6c23e !important
-}
-
-.border-bottom-warning {
-    border-bottom: .25rem solid #f6c23e !important
-}
 
 .border-left-danger {
     border-left: .25rem solid #e74a3b !important
