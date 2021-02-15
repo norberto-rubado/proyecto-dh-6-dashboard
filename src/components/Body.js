@@ -1,7 +1,6 @@
 import {React, useState, useEffect} from "react"
 
-import Sidebar from './Sidebar'
-import Topbar from './Topbar'
+
 import Summary from './Summary'
 import PageHeader from './PageHeader'
 import LastProductCategories from './LastProductCategories'
@@ -47,9 +46,7 @@ return (
 		<body>
 			<div id="wrapper">
 
-	{/* 		<!-- Sidebar --> */}
-				<Sidebar/>
-	{/* 		<!-- End of Sidebar --> */}
+	
 
 	{/* 		<!-- Content Wrapper --> */}
 				<div id="content-wrapper" className="d-flex flex-column">
@@ -57,9 +54,7 @@ return (
 	{/* 			<!-- Main Content --> */}
 					<div id="content">
 
-	{/* 				<!-- Topbar --> */}
-						<Topbar/>
-	{/* 				<!-- End of Topbar --> */}
+	
 
 	{/* 				<!-- Begin Page Content --> */}
 						<div className="container-fluid">
