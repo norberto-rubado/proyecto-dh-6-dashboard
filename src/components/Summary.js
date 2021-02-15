@@ -29,9 +29,9 @@ function Summary(props) {
 
     } , [])
     let info_summary = [
-		{titulo:"Cantidad de Productos",cifra:productsCount,color:"card border-left-primary shadow h-100 py-2",icono:"fas fa-gifts fa-2x text-gray-500"},
-		{titulo:"Cantidad de Usuarios",cifra:usersCount,color:"card border-left-success shadow h-100 py-2",icono:"fas fa-users fa-2x text-gray-500"},
-		{titulo:"Cantidad de Categorias",cifra:categoriesCount,color:"card border-left-warning shadow h-100 py-2",icono:"fas fa-clipboard-list fa-2x text-gray-500"}
+		{titulo:"Productos",cifra:productsCount,color:"card border-left-primary shadow h-100 py-2",icono:"fas fa-gifts fa-2x text-gray-500"},
+		{titulo:"Usuarios",cifra:usersCount,color:"card border-left-success shadow h-100 py-2",icono:"fas fa-users fa-2x text-gray-500"},
+		{titulo:"Categorias",cifra:categoriesCount,color:"card border-left-warning shadow h-100 py-2",icono:"fas fa-clipboard-list fa-2x text-gray-500"}
 	]
 
 return (
