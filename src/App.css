@@ -93,8 +93,15 @@ header {
     max-height: 33.61px;
 }
 
+/* Titulo */
 
-
+.titulo{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    margin-bottom: 1.5rem !important;
+    margin-top: 1.5rem !important
+}
 
 article,
 aside,
