@@ -68,7 +68,7 @@ header {
     background-color: white;
     font-family: Montserrat-Regular;
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 
@@ -109,6 +109,21 @@ header {
 }
 
 /* summary */
+
+.boton-actualizar{
+    margin: 10px;
+    border: 2px solid #18A0FB;
+    border-radius: 10px;
+    width: 30px;
+    text-align: center;
+    justify-content: flex-end;
+    
+}
+
+.boton-actualizar i{
+    color: #18A0FB;
+}
+
 
 .cantidades {
     font-size: 2rem

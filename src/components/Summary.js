@@ -36,8 +36,14 @@ function Summary(props) {
 
 return (
 
-    <div className="summary_1">
+     <div>
 
+    <div className= "boton-actualizar">
+    <a href="/"><i class="fas fa-sync-alt"></i></a>
+</div> 
+        
+         <div className="summary_1">
+         
         <div className="row">
 
             {info_summary.map(info => 
@@ -66,6 +72,9 @@ return (
         </div>
 
     </div>
+    </div>
+   
+
 
 )};
 
